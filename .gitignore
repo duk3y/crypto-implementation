@@ -1,0 +1,39 @@
+# Wallet files (sensitive!)
+*.wallet.txt
+
+# Blockchain data
+block_*.txt
+mempool.txt
+
+# Transaction files
+*-funding.txt
+*-to-*.txt
+fund*.txt
+transfer*.txt
+bad-transfer.txt
+
+# Test files
+test*.wallet.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
