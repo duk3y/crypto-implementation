@@ -14,10 +14,7 @@ A simple educational cryptocurrency implementation in Python to demonstrate bloc
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages:
-  ```bash
-  pip install rsa
-  ```
+- pip3
 
 ## Quick Start
 
@@ -27,10 +24,38 @@ A simple educational cryptocurrency implementation in Python to demonstrate bloc
    cd dukedollar
    ```
 
-2. Run the basic test to see the blockchain in action:
+2. Set up the environment (creates virtual environment and installs dependencies):
+   ```bash
+   make setup
+   ```
+
+3. Run the basic test to see the blockchain in action:
    ```bash
    make test
    ```
+
+### Manual Setup (Alternative)
+
+If you prefer to set up manually:
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
+# Install dependencies
+pip install rsa
+
+# Run tests
+./basic-test.sh
+
+# Deactivate when done
+deactivate
+```
+
+**Note:** The scripts will automatically use the virtual environment if it exists, so you don't need to manually activate it for each command.
 
 ## Project Structure
 
