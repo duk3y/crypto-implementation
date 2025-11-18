@@ -20,8 +20,8 @@ A simple educational cryptocurrency implementation in Python to demonstrate bloc
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd dukedollar
+   git clone https://github.com/duk3y/crypto-implementation.git
+   cd crypto-implementation
    ```
 
 2. Set up the environment (creates virtual environment and installs dependencies):
